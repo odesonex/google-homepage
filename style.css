@@ -1,0 +1,137 @@
+* {
+  font-family: arial;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+}
+li a {
+  text-decoration: none;
+  color: grey;
+}
+a:hover {
+  text-decoration: underline;
+}
+#top_navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 20px;
+}
+#top_navbar li {
+  display: inline;
+  padding-right: 10px;
+}
+#top_navbar li a {
+  color: #4c4c4c;
+  font-size: 12px;
+  padding: 10px;
+}
+ul > li > a > img {
+  position: absolute;
+}
+#signinbutton {
+  background-color: #4386f8;
+  border-radius: 4px;
+  margin-left: 25px;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+#signinbutton:hover {
+  text-decoration: none;
+}
+/*
+p {
+  font-family: Futura LT BT, sans-serif;
+}
+#g {
+  color: #4285F4;
+}
+#oe {
+  color: #EA4335;
+}
+#o {
+  color: #FBBC05;
+}
+#l {
+  color: #34A853;
+}
+*/
+.logo {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+}
+img {
+  position: relative;
+}
+form {
+  width: 605px;
+}
+.search {
+  text-align: center;
+  margin-top: 30px;
+}
+#searchform {
+  display: block;
+  margin: 0 auto;
+  width: 605px;
+  height: 35px;
+  border: 1px solid #d3d3d3;
+  background-image: url('images/mic.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 24px;
+}
+#searchform:hover {
+  border: 1px solid #a8a8a8;
+}
+#searchform:focus{
+  border: 1px solid rgb(77, 144, 254);
+}
+.searchbutton {
+  border: 0.25px solid white;
+  margin-top: 30px;
+  height: 34px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #F1F1F1;
+  color: #938888;
+  font-weight: bold;
+}
+.searchbutton:hover {
+  color: #323232;
+  border: 0.25px solid lightgrey;
+  border-radius: 2px;
+}
+
+
+.bottom_navbar {
+  padding-bottom: 15px;
+
+}
+.bottom_navbar a {
+  font-size: 12px;
+
+}
+#bottomleft_navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+ #bottomleft_navbar li {
+  display: inline;
+  padding: 20px;
+}
+#bottomright_navbar{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+#bottomright_navbar li {
+  display: inline;
+  padding: 20px;
+}
